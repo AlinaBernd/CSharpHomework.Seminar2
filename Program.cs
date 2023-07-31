@@ -2,7 +2,7 @@
 456 -> 5
 782 -> 8
 918 -> 1
-*/
+
 int ShowSecondNumber(int num)
 {
     int tens = num / 10 % 10;
@@ -11,3 +11,4 @@ int ShowSecondNumber(int num)
 int randNum = new Random().Next(100, 1000);
 int newNum = ShowSecondNumber(randNum);
 Console.WriteLine($"Second digit of {randNum} is {newNum}");
+
